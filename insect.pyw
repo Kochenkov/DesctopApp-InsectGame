@@ -158,17 +158,17 @@ root.maxsize(width = c, height = d)
 
 
 
-UP1 = PhotoImage(file='UP1.gif')
-DOWN1 = PhotoImage(file='DOWN1.gif')
-LEFT1 = PhotoImage(file='LEFT1.gif')
-RIGHT1 = PhotoImage(file='RIGHT1.gif')
+UP1 = PhotoImage(file='images/UP1.gif')
+DOWN1 = PhotoImage(file='images/DOWN1.gif')
+LEFT1 = PhotoImage(file='images/LEFT1.gif')
+RIGHT1 = PhotoImage(file='images/RIGHT1.gif')
 
-UP2 = PhotoImage(file='UP2.gif')
-DOWN2 = PhotoImage(file='DOWN2.gif')
-LEFT2 = PhotoImage(file='LEFT2.gif')
-RIGHT2 = PhotoImage(file='RIGHT2.gif')
+UP2 = PhotoImage(file='images/UP2.gif')
+DOWN2 = PhotoImage(file='images/DOWN2.gif')
+LEFT2 = PhotoImage(file='images/LEFT2.gif')
+RIGHT2 = PhotoImage(file='images/RIGHT2.gif')
 
-SMASH = PhotoImage(file='SMASH.gif')
+SMASH = PhotoImage(file='images/SMASH.gif')
 
 canv = Canvas(root,width=c,height=d,bg="white")
 canv.place(x = -2, y = -2)
